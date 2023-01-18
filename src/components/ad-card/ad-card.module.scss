@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 .ad-card { 
-  &__card { min-width: 320px; min-height: 480px; background-color: $white; border: 4px solid $primary; border-radius: 0 12px 12px;
+  &__card { max-width: 320px; min-height: 480px; background-color: $white; border: 4px solid $primary; border-radius: 0 12px 12px;
     position: relative; clip-path: polygon(40px 0, 100% 0, 100% 100%, 0 100%, 0 40px); padding: 20px 50px; margin: 0 auto 15px;
     background-color: $light; background-image: url(../../public/images/cat.png); background-repeat: no-repeat; background-size: contain;
     background-position: bottom -45% right 20px;
@@ -14,8 +14,8 @@
   &__appeal { font-size: 0.8rem; color: $white; font-weight: 400; text-align: center; }
   &__subtitle { color: $grey; }
   &__title { font-size: 3rem; }
-  &__taste { font-size: 1.75rem; margin-bottom: 15px; }
-  &__benefits { color: $grey; font-size: 0.85rem; }
+  &__taste { font-size: 1.75rem; margin-bottom: 15px; font-weight: 700; }
+  &__benefits { color: $grey; font-size: 0.85rem; max-width: 60%; }
   &__weight { background-color: $primary; color: $white; position: absolute; bottom: 15px; right: 15px; border-radius: 50%;
     text-align: center; padding: 13px 10px; min-width: 80px;
 

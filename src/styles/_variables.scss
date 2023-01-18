@@ -14,3 +14,9 @@ $primary: #1698D9;
 $primary-hovered: #2EA8E6;
 $light: #F2F2F2;
 $white: #FFFFFF;
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

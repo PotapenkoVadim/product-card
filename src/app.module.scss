@@ -1,5 +1,5 @@
 @import './styles/variables';
 
-.app { width: 100%; background-image: url(./public/images/pattern.png); object-fit: cover; background-repeat: repeat;
-  position: relative;
+.app { width: 100%; min-height: 100vh; background-image: url(./public/images/pattern.png); object-fit: cover; background-repeat: repeat;
+  position: relative; @include flex-center;
 }

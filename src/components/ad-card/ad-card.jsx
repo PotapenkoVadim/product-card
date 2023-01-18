@@ -14,7 +14,7 @@ export default function AdCard({ product }) {
         </div>
         <div className={styles['ad-card__title']}>{productName}</div>
         <div className={styles['ad-card__taste']}>{product.taste}</div>
-        <div className={styles['ad-card__benefits']}>{product.portion}</div>
+        <div className={styles['ad-card__benefits']}>{product.portion} порций</div>
         <div className={styles['ad-card__benefits']}>{product.bonus}</div>
 
         <div className={styles['ad-card__weight']}>
