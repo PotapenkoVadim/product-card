@@ -1,1 +1,6 @@
+@import './variables';
+@import './fonts';
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: 'Trebuchet MS', sans-serif; font-size: $font; color: $black; }
